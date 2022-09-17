@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+margin: 0;
+padding:0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+header{
+background-color: #f0f0f0;
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 100px;
+text-decoration: none;
+color: #155c9f;
+text-transform: uppercase;
+font-weight: 800;
+font-size: 1.3em;
+}
+.logo{
+    text-decoration: none;
+    color: #1953f1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    
+}
+.navigation a{
+    color: #1a53f1;
+    text-decoration: none ;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.navigation a:hover{
+color: #6e1df0;
+}
+section{
+    padding: 10px 200px
+}
+
+
+.main{
+    width: 1920px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/pexels-oleksandr-tiupa-192136.jpg) no-repeat;
+    background-size: 50% auto;
+    background-size: 3em 25%;
+    background-size: auto 6px;
+    background-size: auto auto;
+
+   
+
+}
+.main h2{
+    color: #f0f0f0;
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #5073d2;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3 {
+    color: #f0f0f0;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.main-btn {
+    color: #e9eaf5;
+    background-color: #0c2b7f;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1.9375em 1.180;
+    letter-spacing: 0.7px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+transition: 0.7s ease;
+
+}
+.main-btn:hover {
+    background-color: rgb(48, 103, 204);
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: #ebf7ff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #1953f1;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color:darkgray;
+    width: 21.25em;
+box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+border-radius: 10px;
+padding: 25px;
+margin: 15px;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #1953f1;
+    font-size: 8em;
+    text-align: center;
+
+}
+.info{
+    text-align: center;
+
+}
+.info h3{
+    color: #1953f1;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+
+}
+.projects{
+    background-color: midnightblue;
+
+}
+.projects.content{
+    margin-top: 30px;
+
+}
+.project-card{
+    background-color: #e9eaf5;
+    border: 1px solid #e9eaf5;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-image img{
+    width: 100%;
+
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.8em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+.more-details{
+    text-decoration: none;
+    color: #1953f1;
+}
+.more-details:hover{
+    color: #6e1df0;
+}
+.contact .icon{
+    font-size: 4.5em;
+
+}
+.contact.info h3 {
+    color: black;
+    
+}
+.contact.info p {
+font-size: 1.5em;
+
+}
+.footer{
+    background-color: rgb(12, 12, 45);
+    color: #e9eaf5;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-title {
+    font-size: 1.3em;
+font-weight: 600;
+}
+.footer-title span {
+    color: #6986d3;
+}
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+}
+.navigation a{
+    padding-left: 10px;
+}
+.title{
+    font-size: 1.1em;
+}
+.section{
+    padding: 80px 20px;
+}
+.main-content h2 {
+font-size: 1em;
+}
+.main-content h3{
+    font-size: 1.6em;
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+
+}
